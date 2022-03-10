@@ -4,7 +4,7 @@ import './GameDev.css';
 
 const GameDev = () => {
   return (
-    <section className="app__gamedev">
+    <section className="app__gamedev" id='game-dev'>
       <div className="container container_gamedev">
         <div className=" app__gamedev_heading">
             <h1 className="p__tech-mono_heading2 p__alt-space">Game</h1>

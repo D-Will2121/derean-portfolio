@@ -6,7 +6,7 @@ import './WebDev.css';
 const WebDev = () => {
   return (
     <section className="app__webdev">
-      <div className="container container_webdev">
+      <div className="container container_webdev" id='web-dev'>
         <div className=" app__webdev_heading">
             <h1 className="p__tech-mono_heading2 p__alt-color_orange p__alt-space">Web</h1>
             <h1 className="p__tech-mono_heading2">Development</h1>

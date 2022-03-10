@@ -62,7 +62,7 @@ padding-left: 2rem;
     color:var(--color-black);
 }
 
-.app__home_info :hover > .p__tech-mono_heading2.p__alt-color {
+.app__home_info :hover > .p__tech-mono_heading2.p__alt-color_orange {
     color:var(--color-white);
 }
 

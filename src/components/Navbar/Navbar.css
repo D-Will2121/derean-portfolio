@@ -11,6 +11,7 @@
 
 .container.container_navbar {
     margin-bottom: .5rem;
+    height: 50px;
 }
 
 .app__navbar-title {
@@ -33,13 +34,12 @@
     align-items: right;
     margin: 0 2rem;
     text-decoration: none;
-
+    cursor: pointer !important;
     list-style: none;
 }
 
 .app__navbar-links li {
     margin: 0 1rem;
-    cursor: pointer;
 }
 
 .app__navbar-links a {
