@@ -1,0 +1,80 @@
+.app__contact {
+    background-color: var(--color-black);
+    padding: 2rem;
+    
+}
+
+.app__contact_heading {
+    border:solid;
+    border-color: var(--color-orange);
+    width: 300px;
+    min-width:fit-content;
+    height: 50px;
+    border-radius: 20px;
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    color: var(--color-orange);
+    margin-bottom: 6rem;
+}
+
+
+
+.app__contact_subheading {
+    border:solid;
+    background-color: var(--color-orange);
+    width: 300px;
+    min-width:fit-content;
+    height: 50px;
+    border-radius: 20px;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 30%;
+    border-radius: 40px;
+    color: var(--color-black);
+    position:relative;
+    padding: 0rem 1rem;
+    margin:auto;
+    margin-bottom: 6rem;
+    text-align: center;
+
+}
+
+.app__contact_subheading .p__mono_heading {
+    margin-top: .5rem;
+}
+
+
+.app__contact_email-button {
+    border:solid;
+    border-color: var(--color-white);
+    background-color: var(--color-black);
+    width: 300px;
+    min-width:fit-content;
+    height: 100px;
+    border-radius: 20px;
+    min-width: max-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    color: var(--color-orange);
+    margin-bottom: 6rem;
+    margin-left: auto;
+
+}
+
+.app__contact_email a {
+    text-decoration: none;    
+}
+
+
+
+.app__contact_email-button:hover {
+    color: var(--color-white);
+    background-color: var(--color-orange);
+}

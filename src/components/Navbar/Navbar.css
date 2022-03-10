@@ -1,0 +1,61 @@
+.app__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-orange);
+    padding: 0rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.container.container_navbar {
+    margin-bottom: .5rem;
+}
+
+.app__navbar-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.app__navbar-title .p__tech-mono_title {
+    line-height: 1;
+    margin-top: .5rem;
+    margin-bottom: 0;
+}
+
+.app__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 0 2rem;
+    text-decoration: none;
+
+    list-style: none;
+}
+
+.app__navbar-links li {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.app__navbar-links a {
+    color:#000;
+    text-decoration: none;;    
+}
+.app__navbar-links a:hover {
+    color:#ffffff;
+}
+
+.app__navbar-links li:hover {
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.app__navbar-links li:visited {
+    color:#ffffff;
+}
+

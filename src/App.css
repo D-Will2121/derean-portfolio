@@ -1,0 +1,79 @@
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.flex__center {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p__tech-mono_heading1 {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  line-height: 29.9px;
+  font-size: 45px;
+}
+
+.p__tech-mono_heading2 {
+  font-family: var(--font-base);
+  color: var(--color-white);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  line-height:1px;
+  font-size: 25px;
+}
+
+.container{
+  width:100%;
+  max-width: 900px;
+  margin:auto;
+  margin-bottom: 100px;
+}
+
+
+.p__tech-mono_title {
+  font-family: var(--font-base);
+  color: var(--color-black);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  font-feature-settings: 'tnum' on, 'lnum' on;
+  font-size: 18px;
+}
+
+.p__tech-mono_title li {
+  text-decoration: none;
+  box-shadow: none;
+}
+
+.p__tech-mono {
+  font-family: var(--font-alt);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+
+}
+
+.p__alt-color_orange{
+  color: var(--color-orange);
+}
+
+.p__alt-color_black{
+  color: var(--color-black);
+}
+
+.p__alt-space{
+  margin-right: .8ch;
+}
+
+.p__tech-mono_home {
+  border-bottom: solid;
+  border-width: 2px;
+  
+  width: 3.5ch;
+}

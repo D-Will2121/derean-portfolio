@@ -1,0 +1,93 @@
+.app__gamedev {
+    background-color: var(--color-black);
+    padding: 2rem;
+}
+
+.container.container_gamedev {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.app__gamedev_heading {
+    border: solid;
+    border-color: var(--color-white);
+    width: 300px;
+    min-width: fit-content;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem 2rem;
+    color: var(--color-orange);
+    margin-right: auto;
+    margin-bottom: 6rem;
+}
+
+.app__gamedev_grid {
+    border: solid;
+    border-color: var(--color-white);
+    max-width: 70%;
+    height: auto;
+    border-radius: 20px;
+    border-width: .3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: var(--color-orange);
+    box-sizing: border-box;
+    padding: 1rem;
+    column-gap: 2px;
+    row-gap: 2px;
+    margin: auto;
+    z-index: 1;
+
+}
+
+.app__gamedev_grid_wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.app__gamedev_grid_img {
+    width: 100%;
+}
+
+.app__gamedev_grid_overlay {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.app__gamedev_grid_overlay > *{
+    transform: translateY(20px);
+    transition: transform 0.25s;;
+}
+
+.app__gamedev_grid_text {
+    font-size: 35px;
+    color: var(--color-white);
+    visibility: visible;
+}
+
+.app__gamedev_grid_overlay:hover{
+    opacity: 1;
+}
+
+.app__gamedev_grid_overlay:hover > * {
+    transform: translateY(0);
+}
+
+
+

@@ -1,0 +1,16 @@
+:root {
+  margin: 0;
+  --font-base: 'Share Tech Mono', monospace;
+  --font-alt: 'Open Sans', sans-serif;
+
+  --color-orange: #FFAC58; 
+  --color-black: #261E1E;
+  --color-white: #FFFFFF;
+
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
