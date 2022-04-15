@@ -27,8 +27,8 @@
 }
 
 .app__about_info-box {
-    max-width:70%;
-    height: 250px;
+    max-width:80%;
+    height: 300px;
     border:solid;
     border-color: var(--color-white);
     background-color: var(--color-orange);
@@ -39,19 +39,25 @@
     padding-top: 1rem;
     color: var(--color-black);
     margin: auto;
+    font-size: 18px;
 
 }
 
 
 .app__about_info-button {
+    border: solid;
     color: var(--color-orange);
     border-color: var(--color-white);
+    border-width: 2px;
     width: 22%;
+    text-align: center;
     background-color: var(--color-black);
     border-radius: 30px;
     margin-top: .7rem;
     cursor: pointer;
 }
+
+
 
 .app__about_info-button:hover {
     border-color: var(--color-black);

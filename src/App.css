@@ -28,6 +28,9 @@
   font-size: 25px;
 }
 
+.p__tech-mono {
+  text-decoration: none;
+}
 
 .container{
   width:100%;
@@ -71,6 +74,16 @@
 
 .p__alt-space{
   margin-right: .8ch;
+}
+
+.p__alt-space a {
+  text-decoration: none;
+
+}
+
+.p__alt-color_orange {
+  text-decoration: none;
+
 }
 
 .p__tech-mono_home {

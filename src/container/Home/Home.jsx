@@ -17,12 +17,12 @@ const Home = () => {
           <p className="p__tech-mono p__alt-color_orange app__home_subtitle_p">js.</p>
         </div>
         <div className="app__home_info">
-          <button className="app__home_info_button"><a href="#about"/>
+          <a className="app__home_info_button" href="#about">
             <h2 className="p__tech-mono_heading2 p__alt-space">Click</h2>
             <h2 className="p__tech-mono_heading2 p__alt-color_orange p__alt-space">Here</h2>
             <h2 className="p__tech-mono_heading2">for More Info</h2>
             <h2 className="p__tech-mono_heading2 p__alt-color_orange ">!</h2>
-          </button>
+          </a>
         </div>
     </div>
         

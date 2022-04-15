@@ -51,6 +51,7 @@ padding-left: 2rem;
     border-radius: 15px;
     border-color: var(--color-orange);
     cursor: pointer;
+    text-decoration: none;
 }
 
 

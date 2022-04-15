@@ -33,7 +33,6 @@
     justify-content: right;
     align-items: right;
     margin: 0 2rem;
-    text-decoration: none;
     list-style: none;
 }
 
@@ -43,7 +42,7 @@
 
 .app__navbar-links a {
     color:#000;
-    text-decoration: none;;    
+    text-decoration: none;   
 }
 .app__navbar-links a:hover {
     color:#ffffff;
