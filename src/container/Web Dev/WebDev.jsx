@@ -21,7 +21,7 @@ const WebDev = () => {
                 </a>
             </div>
             <div className="app__webdev_grid_wrapper">
-                <a href="https://dewill-employee-manager.netlify.app/" target="blacnk">
+                <a href="https://dewill-employee-manager.netlify.app/" target="blank">
                     <img className="app__webdev_grid_img" src={images.employeeM_SS} alt="placeholder"/>
                     <div class="app__webdev_grid_overlay">
                         <p class="p__tech-mono_base app__webdev_grid_text">Employee Manager App</p>
@@ -29,7 +29,7 @@ const WebDev = () => {
                 </a>
             </div>
             <div className="app__webdev_grid_wrapper">
-                <a href="https://restaurant-derean.netlify.app" target="blacnk">
+                <a href="https://restaurant-derean.netlify.app" target="blank">
                     <img className="app__webdev_grid_img" src={images.website_SS} alt="placeholder"/>
                     <div class="app__webdev_grid_overlay">
                         <p class="p__tech-mono_base app__webdev_grid_text">Restaurant Site</p>
@@ -37,10 +37,10 @@ const WebDev = () => {
                 </a>
             </div>
             <div className="app__webdev_grid_wrapper">
-                <a href="https://dewill2121.wixsite.com/website" target="blacnk">
+                <a href="https://dewill2121.wixsite.com/website" target="blank">
                     <img className="app__webdev_grid_img" src={images.gameportfolio} alt="placeholder"/>
                     <div class="app__webdev_grid_overlay">
-                        <p class="p__tech-mono_base app__webdev_grid_text"></p>
+                        <p class="p__tech-mono_base app__webdev_grid_text">Game Dev Portfolio</p>
                     </div>
                 </a>
             </div>

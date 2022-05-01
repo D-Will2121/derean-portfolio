@@ -78,6 +78,8 @@
 .app__webdev_grid_overlay > *{
     transform: translateY(20px);
     transition: transform 0.25s;;
+    padding: 2rem;
+    text-align: center;
 }
 
 .app__webdev_grid_text {
